@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
+:root {
+    --color-primary: #01937C;
+    --color-dark: #0F1123;
+    --title-color: #081F32;
+}
+
 html,
 body {
     padding: 0;
@@ -15,6 +21,52 @@ a {
     text-decoration: none;
 }
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+}
+
+h1 {
+    color: var(--color-dark);
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    align-items: center;
+}
+
+h2 {
+    color: var(--color-dark);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    align-items: center;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    align-items: center;
+    color: #5A5755;
+}
+
+.hero-text {
+    color: var(--color-dark);
+    font-weight: 600;
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+    align-items: center;
+}
+
+.image {
+    border-radius: .6rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+
+    html,
+    body {
+        font-size: 8px;
+    }
 }

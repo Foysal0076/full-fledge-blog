@@ -1,0 +1,9 @@
+.title {
+    display: inline;
+}
+
+.titleContainer {
+    margin-top: -22px;
+    display: flex;
+    align-items: center;
+}
