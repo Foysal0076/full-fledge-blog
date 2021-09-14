@@ -4,7 +4,7 @@ import React from 'react'
 const ArticleCollections = () => {
     return (
         <Container>
-            <Grid container justifyContent='center'>
+            <Grid container justifyContent='center' className='main-content-padding'>
                 <h2>
                     Article Collection
                 </h2>

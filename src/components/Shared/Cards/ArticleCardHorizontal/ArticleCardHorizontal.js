@@ -24,13 +24,13 @@ const ArticleCardHorizontal = ({ slug, category, title, publishedDate }) => {
                 <Grid item container className={styles.content} spacing={0} >
                     <Grid container direction='column' justifyContent='space-between'>
                         <Grid item container justifyContent='space-between' style={{ height: '100%' }}>
-                            <div>
+                            <Grid item xs={12}>
                                 <Grid container justifyContent='space-between' alignItems='center' className={styles.topLine}>
                                     <span className={styles.categoryName}>World</span>
                                     <BookmarkBorderIcon className={styles.icon} />
                                 </Grid>
                                 <span className={styles.title}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, soluta.</span>
-                            </div>
+                            </Grid>
 
                             <Box display='flex' component='span' color='text.secondary' className={styles.subtitle}>
                                 10 September, 2021

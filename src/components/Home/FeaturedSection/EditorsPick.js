@@ -15,6 +15,12 @@ const EditorsPick = () => {
                 <Grid item xs={12}>
                     <ArticleCardHorizontal />
                 </Grid>
+                <Grid item xs={12}>
+                    <ArticleCardHorizontal />
+                </Grid>
+                <Grid item xs={12}>
+                    <ArticleCardHorizontal />
+                </Grid>
             </Grid>
         </>
 

@@ -2,3 +2,59 @@
     width: 100%;
     text-align: left;
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 62rem;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 62rem;
+}
+
+.overlay {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: 1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255) 95%);
+    bottom: 0;
+}
+
+/* Home Banner */
+.content {
+    position: absolute;
+    height: 32rem;
+    width: 100%;
+    z-index: 2;
+}
+
+.heroTitleText {
+    color: white;
+    font-size: 4.8rem;
+    margin: 0;
+}
+
+.heroSubtitleText {
+    color: white;
+    font-weight: 500;
+    font-size: 2.8rem;
+    line-height: 2rem;
+    align-items: center;
+}
+
+.seeMoreButtonContainer {
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.seeMoreButtonContainer:hover{
+    font-size: 1.7rem;
+    color: var(--color-primary);
+}
