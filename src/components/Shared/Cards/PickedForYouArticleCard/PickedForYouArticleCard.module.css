@@ -1,0 +1,27 @@
+.cardImageContainer {
+    width: 13rem;
+    padding: 1rem !important;
+}
+
+.cardImage {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    border-radius: .6rem;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-image: linear-gradient(221deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 30%); */
+    background-image: linear-gradient(221deg, rgba(54, 185, 119, 0.267), rgb(148, 185, 167) 30%);
+    filter: blur(1px);
+    z-index: 1;
+    opacity: 0.2;
+    border-radius: .6rem;
+}
+
+.content {
+    width: calc(100% - 13rem) !important;
+}
