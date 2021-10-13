@@ -36,7 +36,7 @@ export default function Home() {
                                 <Articles />
                             </Grid>
                             <Grid item container  xs={12} lg={3}>
-                                <Grid item xs={12}>
+                                <Grid item xs={12} style={{marginBottom:'3rem'}}>
                                     <SuggestedArticles />
                                 </Grid>
                                 <Grid item xs={12}>

@@ -4,11 +4,13 @@ import React from 'react'
 const ArticleCollections = () => {
     return (
         <Container>
-            <Grid container justifyContent='center' className='main-content-padding'>
-                <h2>
-                    Article Collection
-                </h2>
-            </Grid>
+            <div>
+                <Grid container justifyContent='center' className='main-content-padding'>
+                    <h2>
+                        Article Collection
+                    </h2>
+                </Grid>
+            </div>
         </Container>
 
     )
