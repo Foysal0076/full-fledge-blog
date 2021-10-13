@@ -9,19 +9,21 @@ const SuggestedArticles = () => {
             <Grid item>
                 <h2>For you</h2>
             </Grid>
-            <Paper className='p-2'>
-                <Grid container spacing={3}>
-                    <Grid item xs={12}>
-                        <PickedForYouArticleCard />
+            <Grid item>
+                <Paper className='p-2'>
+                    <Grid container spacing={3}>
+                        <Grid item xs={12}>
+                            <PickedForYouArticleCard />
+                        </Grid>
+                        <Grid item xs={12}>
+                            <PickedForYouArticleCard />
+                        </Grid>
+                        <Grid item xs={12}>
+                            <PickedForYouArticleCard />
+                        </Grid>
                     </Grid>
-                    <Grid item xs={12}>
-                        <PickedForYouArticleCard />
-                    </Grid>
-                    <Grid item xs={12}>
-                        <PickedForYouArticleCard />
-                    </Grid>
-                </Grid>
-            </Paper>
+                </Paper>
+            </Grid>
         </Grid>
     )
 }

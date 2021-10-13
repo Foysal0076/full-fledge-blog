@@ -66,6 +66,10 @@ p {
     border-radius: .6rem;
 }
 
+.br-2 {
+    border-radius: 1rem;
+}
+
 .p-1 {
     padding: .5rem
 }
